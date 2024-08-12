@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Css/pagina-de-login.css">
+  <title>Entrar</title>
+</head>   
+<body>
+
+  
+<header>
+  <a href="index.html">
+    <img src="img/voltar.png" alt="Voltar para pagina anterior" class="class-icon-voltar">
+ </a>
+</header> <br><br><br><br>
+
+<main>
+
+  <div class="linha-decoracao">
+    <img src="img/linhas-decoracao-entrar.png" class="linha-esquerda">
+
+  </div>
+
+  <div class="entrar-conta">
+
+
+    <form>
+      <br>
+      <!--label é uma 'legenda' que indica qual a função daquele campo-->
+      <!--Ao colocar o id no input e o for no label ao clicar na legenda,ja aciona o form-->
+      <!--placeholder é uma marca d'agua que indica o que o usuario tem que fazer-->
+      <label for="campo_usuario">Usuário:</label>
+
+
+      <input id="campo_usuario" type="text" placeholder="Digite seu nome de usuário" required ><br><br>
+
+      <!--Required 'obriga'o usuario a preencher os campos input-->
+
+
+      <label for="campo_senha">Senha:</label>
+      <input id="campo_senha" type="password" placeholder="Digite sua senha" required ><br>
+  
+      <!--Type submit é o botão de enviar do formulario e o value é o nome do botão-->
+       <!--input type="submit" value="Entrar"--> 
+      
+    </form><br>
+
+      <a href="pagina_principal.html">
+        <button>Entrar</button>
+      </a>
+    <br>
+
+
+    <div class="canto-botao">
+      <img src="img/email-icon.png" class="icon-gmail"> <h5>Entrar com conta g-mail?</h5>
+
+      <form>
+        <label>
+          <input type="checkbox" name="termos" id="termos">
+          Li e aceito os termos de serviço.
+        </label>
+      </form>
+
+
+    </div>
+  </div>
+
+
+  <div class="linha-decoracao">
+    <img src="img/linhas-decoracao-entrar.png" class="linha-direita">
+
+  </div>
+
+
+</main> <br><br><br><br>
+
+
+ 
+<footer>
+  <p> &copy; 2024 Buddy Companion. Todos os direitos reservados.</p>
+</footer>
+ 
+
+</body> 
+</html>

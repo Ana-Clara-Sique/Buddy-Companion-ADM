@@ -1,0 +1,177 @@
+
+@media screen and (max-width:400px) {
+  body {
+   background-color:#E4E5EF;
+   font-size: 14px;
+ 
+  }
+}
+
+
+/*para telas de ate 600px*/
+
+@media screen and (min-width:401px) and (max-width:600px) {
+  body{
+    background-color: #E4E5EF;
+    font-size: 16px;
+  
+  } 
+}
+
+
+/*Para telas de ate 850px */
+
+@media screen and (min-width:601px) and (max-width:850px) {
+  body{
+    background-color:#E4E5EF;
+    font-size: 18px;
+   
+
+  }
+}
+
+
+body {
+  background-color:#E4E5EF;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+main {
+  background-color:#E4E5EF;
+ 
+}
+
+
+ 
+.linha-esquerda {
+  position: absolute;
+  top:0px;
+  left: 70px;
+
+}  
+
+
+.linha-direita {
+ position: absolute;
+  bottom: 368px;  /* Valor negativo a img desce mais pra baixo do container*/
+  right: -40px;    
+}
+
+
+.selo-baixo{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.laco-esquerdo {     /*Esse muda o laço da direita! por algum motivo */
+  position: absolute;
+  top: 240px;
+  right:309px;
+}
+
+.laco-direito {   /*Esse muda o laço da esquerda! por algum motivo */
+  position: absolute;
+  top: 240px;
+  left:300px;
+
+}
+
+
+.selo-cima {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.letra-b {
+    position: absolute;
+    top: 51%;
+    left:48%;
+    transform: translate(-50%, -50%)
+}
+
+.letra-c {
+    position: absolute;
+    top: 52%;
+    left:52%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.quadro-baixo {
+  position: absolute;
+  top: 570px;
+  left:655px;
+  transform: translate(-50%, -50%);
+}
+
+
+.quadro-superior {
+  position: absolute;
+  top: 560px;
+  left:657px;
+  transform: translate(-50%, -50%);
+
+
+}
+
+.esquerda {
+  position: absolute;
+  top: 71%;
+  left:42%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+.esquerda-2{
+  position: absolute;
+  top: 72%;
+  left:44%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+
+.direita {
+  position: absolute;
+  top: 72%;
+  left:57%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+
+.direita-2{
+  position: absolute;
+  top: 70%;
+  left:59%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+.botoes{
+  position: absolute;
+  top: 560px;
+  left:650px;
+  transform: translate(-50%, -50%);
+
+
+}
+
+footer {
+text-align: center;
+text-decoration: none;
+color: gray;
+
+}

@@ -1,0 +1,232 @@
+@media screen and (max-width:400px) {
+    body {
+     background-color:#E4E5EF;
+     font-size: 14px;
+    }
+  }
+  
+  
+  /*para telas de ate 600px*/
+  
+  @media screen and (min-width:401px) and (max-width:600px) {
+    body{
+      background-color: #E4E5EF;
+      font-size: 16px;
+    } 
+  }
+  
+  
+  /*Para telas de ate 850px */
+  
+  @media screen and (min-width:601px) and (max-width:850px) {
+    body{
+      background-color:#E4E5EF;
+      font-size: 18px;
+  
+    }
+  }
+  
+  
+  body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .menu-superior {
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #B4b3df;
+   color: aqua;
+   padding: 10px;
+  
+  }
+  
+  .menu-superior .pastas {
+    color: aqua;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  
+  .menu-superior .barra-pesquisa {
+  flex-grow: 1;
+  margin: 0 20px;
+  padding: 5px;
+  border-radius: 4px;
+
+  }
+  
+  
+  .barra-pesquisa {
+   flex-grow: 1;
+   margin: 0 20px;
+   padding: 5px;
+   border-radius: 4px;
+   border: 2px solid gray;
+   box-shadow: 0 0 5px rgba(0,0,0, 0.1);
+  }
+  
+  .barra-pesquisa:focus {
+    border-color: #B4b3df;
+    outline: none;
+  }
+  
+  
+  .menu-superior .configuracoes{
+    color: aqua;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  
+  
+  .conteudo-principal {
+    background-color: #E4E5EF;
+    min-height: 500px;
+  }
+  
+  
+  .menu-inferior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #B4b3df;
+    padding: 10px;
+  }
+  
+  .menu-item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+  }
+  
+  .menu-inferior .calendario {
+    color: aqua;
+    text-decoration: none;
+    font-size: 24px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  
+  .menu-inferior .relogio {
+    color: aqua;
+    text-decoration: none;
+    font-size: 24px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  
+  
+  .menu-inferior .lista-tarefas {
+    color: aqua;
+    text-decoration: none;
+    font-size: 24px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  
+  
+  .menu-inferior .adicionar{
+    color: aqua;
+    text-decoration: none;
+    font-size: 24px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  
+  
+  
+  .menu-inferior .progresso {
+    color: aqua;
+    text-decoration: none;
+    font-size: 24px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  
+  
+  
+  .menu-inferior .notas{
+    color: aqua;
+    text-decoration: none;
+    font-size: 24px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  
+  
+  
+  .menu-inferior .ocultar{
+    color: aqua;
+    text-decoration: none;
+    font-size: 24px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  
+  .circulo {
+  width: 140px;
+  height: 105px;
+  background-color:#E4E5EF;
+  border-radius: 50%;  /*faz o circulo ficar redondo*/
+  position: absolute;
+  z-index: 0;  /*garante que o circulo fique atras do icone*/
+  bottom: 0;   /*posiciona o circulo na parte inferior*/
+  
+  }
+
+
+  .menu-lateral {
+position: fixed;
+top: 0;
+left: -250px;
+width: 250px;
+height: 100%;
+background-color: #B4b3df;
+color: #E4E5EF;
+transition: left 0.3s;
+padding: 20px;
+box-shadow: 2px 0 5px rgba (0,0,0, 0.5);
+z-index:2;
+ }
+
+
+ .menu-lateral h2 {
+    margin-top: 0;
+ }
+
+ .menu-lateral ul {
+    list-style: none;
+    padding: 0;
+ }
+
+ .menu-lateral ul li {
+    margin: 10px 0;
+ }
+
+ .menu-lateral ul li a {
+color: #E4E5EF;
+text-decoration: none;
+ }
+
+
+ .menu-lateral .fechar {
+font-size: 24px;
+cursor: pointer;
+position: absolute;
+top: 10px;
+right: 20px;
+ }
+
+ 

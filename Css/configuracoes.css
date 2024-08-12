@@ -1,0 +1,239 @@
+/*Isso é um comentario!*/
+
+/*Ajustando o media querires*/
+
+/* para telas de ate 400px */
+
+@media screen and (max-width:400px) {
+    body {
+     background-color: #D9D9D9;
+     font-size: 14px;
+    }
+}
+
+
+/*para telas de ate 600px*/
+
+@media screen and (min-width:401px) and (max-width:600px) {
+    body{
+      background-color:#D9D9D9;
+      font-size: 16px;
+    } 
+}
+
+
+/*Para telas de ate 850px */
+
+@media screen and (min-width:601px) and (max-width:850px) {
+    body{
+      background-color: #D9D9D9;
+      font-size: 18px;
+
+    }
+}
+
+
+
+
+.class-icon-voltar {
+  width: 43px;
+  height: auto;
+}
+
+
+
+
+/* Aqui ficam os icones estaticos */
+
+
+.class-icon-perfil {
+  width:43px;
+  height:auto;
+}
+
+.class-icon-configuracao {
+   width: 43px;
+   height:auto;
+}
+
+
+
+
+/* Aqui ficam o header e o footer'*/
+
+.top-header {
+  background-color: gray;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.bottom-footer {
+  background-color: gray;
+  color:#D9D9D9;
+  padding: 10px 20px;
+  text-align: center;
+  width:100%;
+  position: relative;
+  bottom: 0%;
+}
+
+
+/* Aqui ficam os quadros de opcao*/
+
+
+.quadro1 {
+  position: relative;
+  width:300px;
+  margin: 50px auto;
+
+}
+
+.quadro2 {
+  position:relative;
+  width:340px;
+  margin: 50px auto;
+}
+
+
+.quadro-image1 {
+   width:100%;
+   display:block;
+   border: 1px solid #ccc;
+}
+
+.quadro-imagem2 {
+  width: 100%;
+  display:block;
+  border: 1px solid #ccc;
+}
+
+
+
+/* Aqui ficam os botoes */
+
+.botoes1 {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform:translate(-50%,-50%); /*centraliza os botoes*/
+}
+
+.botoes a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: gray;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.botoes a:last-child { 
+  margin-bottom: 0; /*remove o espaç abaixo do ultimo botao*/
+}
+
+
+.botoes2 {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform:translate(-50%,-50%); /*centraliza os botoes*/
+}
+
+
+
+/*aqui ficam os design das funçoes igual ao do figma */
+
+
+.class-image1-left {
+  width: 120px;
+  margin-right: 30px;
+  margin-left: 15%;
+}
+
+.class-image2-left {
+  width:120px;
+  margin-right: 30px;
+  margin-left: 15%;
+}
+
+
+/*aqui ficam os design da opçao sair igual ao do figma */
+
+.class-image3-left {
+  width:40px;
+  margin-right: 30px;
+  margin-left: 17%;
+}
+
+
+/*aqui fica o design da opçao adm*/
+
+.class-image4-left {
+  width:150px;
+  margin-right: 30px;
+  margin-left: 14%;
+}
+
+
+
+
+
+/*aqui ficam os design dos botoes igual o do figma */ 
+
+.class-botao-email {
+  width: 100px;
+  height: auto;
+}
+
+
+.class-botao-fotoperfil {
+  width: 150px;
+  height: auto;
+}
+
+
+.class-botao-altsenha {
+  width: 100px;
+  height: auto;
+}
+
+
+.class-botao-altnome {
+  width: 100px;
+  height: auto;
+}
+
+
+
+.class-botao-dataehora {
+  width: 150px;
+  height: auto;
+}
+
+
+.class-botao-layout {
+  width: 55px;
+  height: auto;
+}
+
+
+.class-botao-privacidade {
+  width: 230px;
+  height: auto;
+}
+
+
+.class-botao-privarconta {
+  width: 100px;
+  height: auto;
+}
+
+
+.class-botao-excluirconta {
+  width: 100px;
+  height: auto;
+}
+

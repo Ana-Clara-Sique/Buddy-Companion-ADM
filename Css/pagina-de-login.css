@@ -1,0 +1,120 @@
+
+@media screen and (max-width:400px) {
+  body {
+   background-color: #D9D9D9;
+   font-size: 14px;
+  }
+}
+
+
+/*para telas de ate 600px*/
+
+@media screen and (min-width:401px) and (max-width:600px) {
+  body{
+    background-color:#D9D9D9;
+    font-size: 16px;
+  } 
+}
+
+
+/*Para telas de ate 850px */
+
+@media screen and (min-width:601px) and (max-width:850px) {
+  body{
+    background-color: #D9D9D9;
+    font-size: 18px;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background-color: #d9d9d9;
+}
+
+
+
+header {
+    background-color: #d9d9d9;
+    padding: 10px 20px;
+    width: 100%;
+  }
+
+  
+.class-icon-voltar {
+    width: 53px;
+    height: auto;
+  }
+
+  
+  footer {
+    background-color: #d9d9d9;
+    color:black;
+    padding: 10px 20px;
+    text-align: center;
+    width:100%;
+  }
+  
+ 
+.linha-esquerda {
+    position: absolute;
+    top:-10px;
+    left: 170px;
+
+}  
+
+.linha-direita {
+    position: absolute; 
+    bottom: -150px;  /* Valor negativo a img desce mais pra baixo do container*/
+    right: 170px;    
+}
+    
+
+.entrar-conta {
+  width: 100%;
+  display:block;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border:1px solid #d9d9d9;
+  background-color: #d9d9d9;
+}
+
+
+
+
+.entrar-conta {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+
+}
+
+.form-cadastro a:last-child { 
+  margin-bottom: 0; /*remove o espaç abaixo do ultimo botao*/
+}
+
+
+input, textarea, select {
+background-color: #A7ABD3;
+color:black;
+}
+
+.icon-gmail {
+ overflow: hidden;
+ border-radius: 50%;
+}

@@ -1,0 +1,145 @@
+/*Ajustando o media querires*/
+
+
+@media screen and (max-width:400px) {
+    body {
+     background-color: #D9D9D9;
+     font-size: 14px;
+    }
+}
+
+
+/*para telas de ate 600px*/
+
+@media screen and (min-width:401px) and (max-width:600px) {
+    body{
+      background-color:#D9D9D9;
+      font-size: 16px;
+    } 
+}
+
+
+/*Para telas de ate 850px */
+
+@media screen and (min-width:601px) and (max-width:850px) {
+    body{
+      background-color: #D9D9D9;
+      font-size: 18px;
+
+    }
+}
+
+
+
+/*icone de voltar para a pagina anterior */
+
+.class-icon-voltar {
+  width: 43px;
+  height: auto;
+}
+
+
+
+/*Layout das telas originais do projeto */
+
+.quadro-roxo {
+    width: 800px;
+    margin: 120px auto;
+    position: relative;
+  }
+   
+  
+  .quadro-central {
+    width:100%;
+    display:block;
+    border: 1px solid #D9D9D9;
+  }
+  
+
+.alteracao-perfil{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+
+  main {
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+
+  }
+
+  .alteracao-perfil{
+    padding:20px;
+    text-align: center;
+  }
+
+
+.custom-file-update {
+    border: 2px solid gray;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor:pointer;
+    margin-bottom: 10px;
+}
+
+
+/*desing do botao escolher arquivo*/
+
+
+.custom-file-upload input [type="File"] {
+    display: none;   /*Esconde o input type file nativo */
+}
+
+
+
+.custom-file-upload:hover{
+    background-color: #D9D9D9;   /*Cor de fundo do botao ao passar o mouse*/
+}
+
+
+
+.custom-file-upload{
+    border:10px soli gray;      /*Cor da borda do botao*/
+    background-color: #99A3BA;  /*Cor de fundo do botao*/
+    color:black;               /*Cor do texto*/
+    display:inline-block;        /*"transforma" o elemento em bloco*/
+    padding:15px 30px;           /* Ajusta o padding para aumentar o tamnaho do botao*/
+    cursor:pointer;             /* Faz o cursor apontar que tem uma interação ao passar por cima do elemento*/
+    border-radius: 5px;         /* Define o arrendondamneto dos cantos do botao ou elemento*/
+    transition: backgroud-color 0.3s ease;   /* Define uma mudança suave, quando ocrre alteraçao, sendo no caso a backgroud-color , 0.3s e a duraçao e ease e a funçao de tempo que acelera a transiçao*/
+    font-size:16px;
+    text-align: center;
+    width:250px;     /* Define a largura do botao*/
+}
+
+
+
+/*desing dos botoes*/
+
+button {
+    padding: 10px 20px;
+    background-color: #99A3BA;
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+#file-name {
+    margin-top: 10px;
+    font-style: italic;
+    color:gray;
+}
+
+
+

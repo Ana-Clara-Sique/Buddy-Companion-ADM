@@ -1,0 +1,142 @@
+
+@media screen and (max-width:400px) {
+    body {
+     background-color: #D9D9D9;
+     font-size: 14px;
+    }
+}
+
+
+/*para telas de ate 600px*/
+
+@media screen and (min-width:401px) and (max-width:600px) {
+    body{
+      background-color:#D9D9D9;
+      font-size: 16px;
+    } 
+}
+
+
+/*Para telas de ate 850px */
+
+@media screen and (min-width:601px) and (max-width:850px) {
+    body{
+      background-color: #D9D9D9;
+      font-size: 18px;
+
+    }
+}
+
+
+
+header {
+  background-color: gray;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+footer {
+  background-color: gray;
+  color:#D9D9D9;
+  padding: 10px 20px;
+  text-align: center;
+  width:100%;
+}
+
+
+
+  
+
+.class-icon-voltar {
+  width: 53px;
+  height: auto;
+}
+
+
+
+.quadro-cadastro {
+  width: 900px;
+  height:450px;
+  margin: 120px auto;
+  position: relative;
+}
+ 
+
+.quadro-cadastrar {
+  width:100%;
+  display:block;
+  border: 1px solid #D9D9D9;
+}
+
+
+
+body {
+  background-color:white;
+  color:black;
+  padding: 20px;
+}
+
+
+
+
+form {
+  align-items: center;
+  
+}
+
+
+
+.form-cadastro {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform:translate(-50%,-50%); /*centraliza os botoes*/
+}
+
+.form-cadastro {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+
+}
+
+.form-cadastro a:last-child { 
+  margin-bottom: 0; /*remove o espaç abaixo do ultimo botao*/
+}
+
+
+input, textarea, select {
+background-color: #A7ABD3;
+color:black;
+}
+
+
+
+
+
+
+
+.decoracao{
+  display: block;
+  width:auto;
+  position: relative;
+  height: auto;
+}
+
+.class-floral-superior{
+ position: absolute;
+ top: -80px;    /* Ao colocar valor negativo a img vai ser movida um pouco mais pra cima- Ou sej ela vai ser posicionada 20px acima do container .decoraçao */
+ left: 20px;     /* Ao colocar valor positivo posso mover a img um pouco mais pra direita- Significa que a img sera posicionada 10px a direita  dentro do container .decoraçao*/
+
+}
+
+.class-floral-inferior {
+ position: absolute; 
+ bottom: -110px;  /* Valor negativo a img desce mais pra baixo do container*/
+ right: 20px;     /* Valor positivo a img fica um pouco mais para a direita */
+}
+
